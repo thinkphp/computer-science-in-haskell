@@ -11,6 +11,9 @@ primes :: Int -> [ Int ]
 primes n = [x| x <- [2..n], prime x]
 
 main = do putStrLn "Give me a number"
+
           n <- readLn :: IO Int 
+
           print $ prime n
+
           print $ primes 100
