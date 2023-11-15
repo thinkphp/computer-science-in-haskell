@@ -2,7 +2,7 @@
 
 ![Haskell logo](https://raw.githubusercontent.com/abrahamcalf/programming-languages-logos/master/src/haskell/haskell.svg)
 
-## Euclid's algorithm
+## Euclid's algorithm https://ideone.com/jJFGHX
 
 ```haskell
 euclid :: Int -> Int -> Int
