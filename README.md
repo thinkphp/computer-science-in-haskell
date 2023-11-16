@@ -51,7 +51,29 @@ Output: [12,23,11]
 Input: [(x,y) | x <- [1,3,5], y <- [2,4,6], x<y]
 Output: [(1,2),(1,4),(1,6),(3,4),(3,6),(5,6)]
 ```
+## Foldr
 
+it takes the second argument and the last item of the list and applies the function, then it takes the penultimate item from the end and the result, and so on. See scanr for intermediate results
+
+```
+Input: foldr (+) 5 [1,2,3,4]
+Output: 15
+
+Input: foldr (/) 2 [8,12,24,4]
+Output: 8.0
+
+Input: foldr (/) 3 []
+Output: 3.0
+
+Input: foldr (&&) True [1>2,3>2,5==5]
+Output: False
+
+Input: foldr max 18 [3,6,12,4,55,11]
+Output: 55
+
+Input: foldr (\x y -> (x+y)/2) 54 [12,4,10,6]
+Output: 12.0
+```
 ## Euclid's algorithm https://ideone.com/jJFGHX
 
 ```haskell
@@ -110,4 +132,5 @@ main = do
 ## References
 
 https://www.cantab.net/users/antoni.diller/haskell/haskell.html
-Folding in Haskell https://www.sfu.ca/~tjd/383summer2019/haskell_folding_lhs.html
+* https://www.sfu.ca/~tjd/383summer2019/haskell_folding_lhs.html Folding
+* https://stackoverflow.com/questions/1757740/how-does-foldr-work Folding
