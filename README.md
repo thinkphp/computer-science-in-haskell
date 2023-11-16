@@ -35,7 +35,7 @@ main = do
 
 ```
 
-## Square
+## Square https://ideone.com/mVdZqO
 
 ```Haskell
 square :: Int -> Int
