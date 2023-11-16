@@ -2,6 +2,29 @@
 
 ![Haskell logo](https://raw.githubusercontent.com/abrahamcalf/programming-languages-logos/master/src/haskell/haskell.svg)
 
+## Intro
+
+```haskell
+sayMe 1 = "One"
+sayMe 2 = "Two"
+sayMe 3 = "Three"
+sayMe 4 = "Four"
+sayMe 5 = "Five"
+sayMe 6 = "Six"
+sayMe 7 = "Seven"
+sayMe 8 = "eight"
+sayMe 9 = "Nine"
+sayMe 10 = "Ten"
+add x y = x + y
+main :: IO()
+main = do
+       putStr "Sum of x + y = "
+       print(add 10 10)
+       print(sayMe 10) 
+       print $ factorial 10 
+       print(factorial 5)
+```
+
 ## Euclid's algorithm https://ideone.com/jJFGHX
 
 ```haskell
