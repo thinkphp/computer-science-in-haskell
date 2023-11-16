@@ -21,7 +21,7 @@ main = do putStrLn "Enter the first number:"
 
 ```
 
-## Factorial
+## Factorial https://ideone.com/GwJc9z
 
 ```haskell
 GNU nano 6.2                         Fact.hs                            M     
