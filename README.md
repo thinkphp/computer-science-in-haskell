@@ -31,6 +31,27 @@ main = do
       
 ```
 
+## List comprehensions
+
+list comprehension returns a list of elements created by evaluation of the generators
+
+```haskell
+Input: [x+2*x+x/2 | x <- [1,2,3,4]]
+Output: [3.5,7.0,10.5,14.0]
+
+Input: [ odd x | x <- [1..9]]
+Output: [True,False,True,False,True,False,True,False,True]
+
+Input: [ x*y | x <- [1,2,3,4], y <- [3,5,7,9]]
+Output: [3,5,7,9,6,10,14,18,9,15,21,27,12,20,28,36]
+
+Input: [x | x <- [1,5,12,3,23,11,7,2], x>10]
+Output: [12,23,11]
+
+Input: [(x,y) | x <- [1,3,5], y <- [2,4,6], x<y]
+Output: [(1,2),(1,4),(1,6),(3,4),(3,6),(5,6)]
+```
+
 ## Euclid's algorithm https://ideone.com/jJFGHX
 
 ```haskell
