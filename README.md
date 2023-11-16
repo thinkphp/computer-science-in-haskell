@@ -5,6 +5,11 @@
 ## Intro
 
 ```haskell
+factorial :: Integer -> Integer
+factorial 0 = 1
+factorial n = n * factorial (n - 1)
+add :: Integer -> Integer -> Integer
+sayMe :: Integer -> String
 sayMe 1 = "One"
 sayMe 2 = "Two"
 sayMe 3 = "Three"
@@ -23,6 +28,7 @@ main = do
        print(sayMe 10) 
        print $ factorial 10 
        print(factorial 5)
+      
 ```
 
 ## Euclid's algorithm https://ideone.com/jJFGHX
