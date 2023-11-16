@@ -66,7 +66,7 @@ main = do
 
 ## Fibonacci Sequence
 
-```
+```haskell
 hello = "Fibonacci Sequence!"
 fib :: Integer -> Integer
 fib 0 = 0
@@ -89,3 +89,4 @@ main = do
 ## References
 
 https://www.cantab.net/users/antoni.diller/haskell/haskell.html
+Folding in Haskell https://www.sfu.ca/~tjd/383summer2019/haskell_folding_lhs.html
