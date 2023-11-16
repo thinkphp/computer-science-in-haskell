@@ -72,3 +72,7 @@ square n = n * n
 main = do 
        print $ square 5
 ```
+
+## References
+
+https://www.cantab.net/users/antoni.diller/haskell/haskell.html
