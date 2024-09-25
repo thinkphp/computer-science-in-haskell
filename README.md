@@ -131,6 +131,8 @@ main = do
 
 ## References
 
+https://cs.lmu.edu/~ray/notes/introhaskell/
+
 https://www.cantab.net/users/antoni.diller/haskell/haskell.html
 * https://www.sfu.ca/~tjd/383summer2019/haskell_folding_lhs.html Folding
 * https://stackoverflow.com/questions/1757740/how-does-foldr-work Folding
