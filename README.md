@@ -1,3 +1,47 @@
+# Table of Contents: Introduction to Haskell - Stanford Class Coursework
+
+## 0. History of Haskell
+- Origins and development
+- Key milestones and versions
+- Influence on other languages
+
+## 1. Basic Syntax and Function Definition
+- Simple functions
+- Multiple parameters
+- Using guards
+- Let expressions
+
+## 2. Lists and List Comprehensions
+- Basic list operations
+- Simple list comprehensions
+- Nested list comprehensions
+- List comprehensions with multiple generators
+
+## 3. Pattern Matching
+- Pattern matching on lists
+- Pattern matching with tuples
+- Pattern matching in function definitions
+- As-patterns
+
+## 4. Higher-Order Functions
+- Map function
+- Filter function
+- Creating higher-order functions
+- Function composition
+
+## 5. Algebraic Data Types (ADTs)
+- Simple ADTs
+- ADTs with parameters
+- Recursive ADTs
+- Parametric polymorphism with ADTs
+
+## 6. Type Classes
+- Defining a type class
+- Implementing a type class
+- Using type class constraints
+- Multiple type class constraints
+
+
 # Essential Haskell
 
 ![Haskell logo](https://raw.githubusercontent.com/abrahamcalf/programming-languages-logos/master/src/haskell/haskell.svg)
